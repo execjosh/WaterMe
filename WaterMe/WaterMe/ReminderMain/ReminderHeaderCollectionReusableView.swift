@@ -80,6 +80,8 @@ extension ReminderSection {
             return LocalizedString.thisWeek
         case .later:
             return LocalizedString.later
+        case .disabled:
+            return "Paused" // TODO localize
         }
     }
 }

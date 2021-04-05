@@ -33,7 +33,7 @@ class ReminderIsEnabledTableViewCell: SimpleToggleTableViewCell {
 
     func configure(with isEnabled: Bool) {
         self.toggle.isOn = isEnabled
-        self.textLabel?.text = isEnabled ? "Enabled" : "Disabled" // TODO localize
+        self.textLabel?.text = "Enabled" // TODO localize
     }
 
 }
